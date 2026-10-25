@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #E2E8F0;
+    color: #0F172A;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Botón industrial de bloqueo crítico (Pana Fulminante) */
+.btn-fulminante {
+  background: linear-gradient(135deg, #991B1B 0%, #DC2626 100%);
+  color: #ffffff;
+  border: 2px solid #7F1D1D;
+  border-radius: 10px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  box-shadow: 0 6px 16px rgba(185, 28, 28, 0.35);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+}
+
+.btn-fulminante:hover:not(:disabled) {
+  transform: translateY(1px);
+  box-shadow: 0 3px 10px rgba(185, 28, 28, 0.45);
+  filter: brightness(1.06);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Rental Valdivia - Control de Taller & NFC",
+  "description": "Sistema integral de control de flota, recepción en patio vía NFC, órdenes de trabajo, inventario de repuestos, presupuestos y asistente mecánico IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
